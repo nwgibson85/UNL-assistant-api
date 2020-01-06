@@ -1,24 +1,24 @@
-# Express Boilerplate!
+# UNL Helper API!
 
-This is a boilerplate project used for starting new Node.js projects!
+This is a NODE.js api for the REACT application UNL Helper!
 
-## Set up
+## ToDo List:
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+1. Install the remaining dependencies.
+2. Create Service Objects for each table.
+3. Create routers for each enpoint including GET POST DELETE and PATCH.
+4. Write up tests for each enpoint ensuring correct functionality of the api.
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL [NEW-PROJECTS-NAME]`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use [NEW-PROJECT-NAME] instead of `"name": "express-boilerplate",`
+## Completed so far.
+
+1. Database 'unlHelper' has been created.
+2. migrations for 4 tables are in place.
+3. seed file is written and the database has been seeded. 
 
 ## Scripts
 
 Start the application `npm start`
-
 Start nodemon for the application `npm run dev`
-
 Run the tests `npm test`
 
 ## Deploying

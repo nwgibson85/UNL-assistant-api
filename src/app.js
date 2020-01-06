@@ -5,6 +5,10 @@ const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const errorHandler = require('./errorHandler')
+const nursesRouter = require('./employees/nursesRouter.js')
+const techsRouter = require('./employees/techsRouter')
+const roomsRouter = require('./rooms/roomsRouter')
+const patientsRouter = require('./patients/patientsRouter')
 
 const app = express()
 
