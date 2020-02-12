@@ -7,8 +7,7 @@ const { NODE_ENV } = require('./config')
 const errorHandler = require('./errorHandler')
 const nursesRouter = require('./employees/nursesRouter.js')
 const techsRouter = require('./employees/techsRouter')
-const roomsRouter = require('./rooms/roomsRouter')
-const patientsRouter = require('./patients/patientsRouter')
+// const roomsRouter = require('./rooms/roomsRouter')
 
 const app = express()
 
@@ -24,6 +23,9 @@ app.get('/', (req, res) => {
     res.send('Hello, World!')
 })
 
+app.use('/api', nursesRouter)
+app.use('/api', techsRouter)
+// app.use('/api', roomsRouter)
 app.use(errorHandler)
 
 module.exports = app

@@ -1,6 +1,6 @@
-# UNL Helper API!
+# UNL-assistant-API!
 
-This is a NODE.js api for the REACT application UNL Helper!
+This is a NODE.js api for the REACT application UNL-assistant!
 
 ## ToDo List:
 
