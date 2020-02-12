@@ -1,3 +1,0 @@
-INSERT INTO patients (name, age, code, level_of_care, diagnosis, resp, comments, down_grade)
-VALUES
-  ('vicious patient', 32, 'full', 'icu', 'hideYoKids', 'vent', 'This text contains an intentionally broken image <img src="https://url.to.file.which/does-not.exist" onerror="alert(document.cookie); alert(''you just got pretend hacked! oh noes!'');">. The image will try to load, when it fails, <strong>it executes malicious JavaScript</strong>', 'no');
